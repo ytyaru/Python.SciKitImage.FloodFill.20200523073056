@@ -1,0 +1,25 @@
+Parent	Name	Text	Icon	IconText	Shortcut	StatusTip	WhatsThis	ToolTip	triggered
+File	Save	Save			Ctrl+S				Window.widget.GraphicsView.Scene.Drawable.Pixels.save
+Draw	MoveUpSelectedPixel	Move up selected pixel			Up				GraphicView.Scene.Selected.move_up
+Draw	MoveDownSelectedPixel	Move down selected pixel			Down				GraphicView.Scene.Selected.move_down
+Draw	MoveLeftSelectedPixel	Move left selected pixel			Left				GraphicView.Scene.Selected.move_left
+Draw	MoveRightSelectedPixel	Move right selected pixel			Right				GraphicView.Scene.Selected.move_right
+Draw	DrawSelectedPixel	Draw selected pixel			Space				GraphicView.Scene.Selected.drawPixel
+Draw	DrawMoveUpPixel	Draw move up pixel			Shift+Up				GraphicView.Scene.Selected.draw_move_up
+Draw	DrawMoveDownPixel	Draw move down pixel			Shift+Down				GraphicView.Scene.Selected.draw_move_down
+Draw	DrawMoveLeftPixel	Draw move left pixel			Shift+Left				GraphicView.Scene.Selected.draw_move_left
+Draw	DrawMoveRightPixel	Draw move right pixel			Shift+Right				GraphicView.Scene.Selected.draw_move_right
+Draw	EraseSelectedPixel	Erase selected pixel			BackSpace				GraphicView.Scene.Selected.erasePixel
+Draw	EraseMoveUpPixel	Erase move up pixel			Ctrl+Up				GraphicView.Scene.Selected.erase_move_up
+Draw	EraseMoveDownPixel	Erase move down pixel			Ctrl+Down				GraphicView.Scene.Selected.erase_move_down
+Draw	EraseMoveLeftPixel	Erase move left pixel			Ctrl+Left				GraphicView.Scene.Selected.erase_move_left
+Draw	EraseMoveRightPixel	Erase move right pixel			Ctrl+Right				GraphicView.Scene.Selected.erase_move_right
+Animation	AddFrame	Add frame			Ins				FrameListView._FrameListView__add_frame
+Animation	InsertCopyFrame	Insert copy frame			Alt+Ins				FrameListView._FrameListView__insert_copy_frame
+Animation	DeleteFrame	Delete frame			Del				FrameListView._FrameListView__delete_frame
+Animation	SelectedPreviousFrame	Selected previous frame			Alt+Left				FrameListView._FrameListView__selected_previous_frame
+Animation	SelectedNextFrame	Selected next frame			Alt+Right				FrameListView._FrameListView__selected_next_frame
+Animation	MovePreviousFrame	Move previous frame			Ctrl+Alt+Shift+Left				FrameListView._FrameListView__move_previous_frame
+Animation	MoveNextFrame	Move next frame			Ctrl+Alt+Shift+Right				FrameListView._FrameListView__move_next_frame
+Animation	ShowDialog	Show dialog			Alt+D				AnimationDurationSetDialog.show
+Animation	StartStopAnimation	Start/Stop animation			Alt+S				AnimationWidget.Label.toggle_animation
